@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F56090C01E2899AD00DD0439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56090BF1E2899AD00DD0439 /* AppDelegate.swift */; };
+		F56090C21E2899AD00DD0439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56090C11E2899AD00DD0439 /* ViewController.swift */; };
+		F56090C51E2899AD00DD0439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56090C31E2899AD00DD0439 /* Main.storyboard */; };
+		F56090C81E2899AD00DD0439 /* PropertyRental.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F56090C61E2899AD00DD0439 /* PropertyRental.xcdatamodeld */; };
+		F56090CA1E2899AD00DD0439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56090C91E2899AD00DD0439 /* Assets.xcassets */; };
+		F56090CD1E2899AD00DD0439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56090CB1E2899AD00DD0439 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F56090BC1E2899AD00DD0439 /* PropertyRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56090BF1E2899AD00DD0439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F56090C11E2899AD00DD0439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F56090C41E2899AD00DD0439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F56090C71E2899AD00DD0439 /* PropertyRental.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PropertyRental.xcdatamodel; sourceTree = "<group>"; };
+		F56090C91E2899AD00DD0439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F56090CC1E2899AD00DD0439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F56090CE1E2899AD00DD0439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56090B91E2899AD00DD0439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56090B31E2899AD00DD0439 = {
+			isa = PBXGroup;
+			children = (
+				F56090BE1E2899AD00DD0439 /* PropertyRental */,
+				F56090BD1E2899AD00DD0439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56090BD1E2899AD00DD0439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56090BC1E2899AD00DD0439 /* PropertyRental.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56090BE1E2899AD00DD0439 /* PropertyRental */ = {
+			isa = PBXGroup;
+			children = (
+				F56090BF1E2899AD00DD0439 /* AppDelegate.swift */,
+				F56090C11E2899AD00DD0439 /* ViewController.swift */,
+				F56090C31E2899AD00DD0439 /* Main.storyboard */,
+				F56090C91E2899AD00DD0439 /* Assets.xcassets */,
+				F56090CB1E2899AD00DD0439 /* LaunchScreen.storyboard */,
+				F56090CE1E2899AD00DD0439 /* Info.plist */,
+				F56090C61E2899AD00DD0439 /* PropertyRental.xcdatamodeld */,
+			);
+			path = PropertyRental;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56090BB1E2899AD00DD0439 /* PropertyRental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56090D11E2899AD00DD0439 /* Build configuration list for PBXNativeTarget "PropertyRental" */;
+			buildPhases = (
+				F56090B81E2899AD00DD0439 /* Sources */,
+				F56090B91E2899AD00DD0439 /* Frameworks */,
+				F56090BA1E2899AD00DD0439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PropertyRental;
+			productName = PropertyRental;
+			productReference = F56090BC1E2899AD00DD0439 /* PropertyRental.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56090B41E2899AD00DD0439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "My Solutions 4 U";
+				TargetAttributes = {
+					F56090BB1E2899AD00DD0439 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F56090B71E2899AD00DD0439 /* Build configuration list for PBXProject "PropertyRental" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56090B31E2899AD00DD0439;
+			productRefGroup = F56090BD1E2899AD00DD0439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56090BB1E2899AD00DD0439 /* PropertyRental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56090BA1E2899AD00DD0439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56090CD1E2899AD00DD0439 /* LaunchScreen.storyboard in Resources */,
+				F56090CA1E2899AD00DD0439 /* Assets.xcassets in Resources */,
+				F56090C51E2899AD00DD0439 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56090B81E2899AD00DD0439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56090C81E2899AD00DD0439 /* PropertyRental.xcdatamodeld in Sources */,
+				F56090C21E2899AD00DD0439 /* ViewController.swift in Sources */,
+				F56090C01E2899AD00DD0439 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F56090C31E2899AD00DD0439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56090C41E2899AD00DD0439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F56090CB1E2899AD00DD0439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56090CC1E2899AD00DD0439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56090CF1E2899AD00DD0439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56090D01E2899AD00DD0439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56090D21E2899AD00DD0439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PropertyRental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.PropertyRental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F56090D31E2899AD00DD0439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PropertyRental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.PropertyRental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56090B71E2899AD00DD0439 /* Build configuration list for PBXProject "PropertyRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56090CF1E2899AD00DD0439 /* Debug */,
+				F56090D01E2899AD00DD0439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56090D11E2899AD00DD0439 /* Build configuration list for PBXNativeTarget "PropertyRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56090D21E2899AD00DD0439 /* Debug */,
+				F56090D31E2899AD00DD0439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F56090C61E2899AD00DD0439 /* PropertyRental.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F56090C71E2899AD00DD0439 /* PropertyRental.xcdatamodel */,
+			);
+			currentVersion = F56090C71E2899AD00DD0439 /* PropertyRental.xcdatamodel */;
+			path = PropertyRental.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F56090B41E2899AD00DD0439 /* Project object */;
+}
