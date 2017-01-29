@@ -14,6 +14,23 @@ class SearchItemDetailVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+       /* let backItem = UIBarButtonItem()
+        backItem.title = "Something Else"
+        navigationItem.backBarButtonItem = backItem */
+        
+        let button = UIBarButtonItem(title: "YourTitle", style: UIBarButtonItemStyle.bordered, target: self, action: #selector(SearchItemDetailVC.goBack))
+        self.navigationItem.backBarButtonItem = button
+        
+    
+
+        
+    }
+    
+    
+    
+    func goBack()
+    {
+        self.navigationController?.popViewController(animated: true)
     }
 
     override func didReceiveMemoryWarning() {

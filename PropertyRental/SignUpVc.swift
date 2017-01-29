@@ -1,29 +1,15 @@
 //
-//  DealersMenuVC.swift
+//  SignUpVc.swift
 //  PropertyRental
 //
-//  Created by My Solutions 4 U on 1/17/17.
+//  Created by My Solutions 4 U on 1/28/17.
 //  Copyright © 2017 My Solutions 4 U. All rights reserved.
 //
 
 import UIKit
-import REFrostedViewController
 
+class SignUpVc: UIViewController {
 
-class DealersMenuVC: UIViewController {
-    
-    
-    
-    
-    @IBOutlet weak var btnNavigationDrawer: UIBarButtonItem!
-
-    @IBAction func btnNavigationDrawer(_ sender: AnyObject) {
-        
-        self.view!.endEditing(true)
-        self.frostedViewController.view!.endEditing(true)
-        self.frostedViewController.presentMenuViewController()
-        
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,7 +26,7 @@ class DealersMenuVC: UIViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }

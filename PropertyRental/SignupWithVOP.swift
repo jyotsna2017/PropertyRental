@@ -14,6 +14,17 @@ class SignupWithVOP: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+       /* let myView  =  custView(frame: CGRectMake(0 ,self.view.frame.size.height-66, self.view.frame.size.width, 66))
+        
+            
+            myView.label.text = "hello" */
+      
+        
+      /*  func updateData(title:String){
+            self.label.text = title
+        }*/
+        
+
     }
 
     override func didReceiveMemoryWarning() {

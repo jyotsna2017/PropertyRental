@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F545F4B41E3CA89D009119FC /* ResetVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545F4B31E3CA89D009119FC /* ResetVc.swift */; };
+		F545F4B81E3CAE9C009119FC /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545F4B71E3CAE9C009119FC /* SignUpVc.swift */; };
+		F545F4BA1E3CAEC7009119FC /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545F4B91E3CAEC7009119FC /* OtpVC.swift */; };
+		F55FAA821E2CA54200AD5575 /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55FAA811E2CA54200AD5575 /* Vendor.swift */; };
+		F55FAA8E1E2CAC3E00AD5575 /* SignupWithVOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55FAA8D1E2CAC3E00AD5575 /* SignupWithVOP.swift */; };
+		F55FAA931E2CC88700AD5575 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55FAA921E2CC88700AD5575 /* MenuVC.swift */; };
 		F56090C01E2899AD00DD0439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56090BF1E2899AD00DD0439 /* AppDelegate.swift */; };
 		F56090C21E2899AD00DD0439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56090C11E2899AD00DD0439 /* ViewController.swift */; };
 		F56090C51E2899AD00DD0439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56090C31E2899AD00DD0439 /* Main.storyboard */; };
 		F56090C81E2899AD00DD0439 /* PropertyRental.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F56090C61E2899AD00DD0439 /* PropertyRental.xcdatamodeld */; };
 		F56090CA1E2899AD00DD0439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56090C91E2899AD00DD0439 /* Assets.xcassets */; };
 		F56090CD1E2899AD00DD0439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56090CB1E2899AD00DD0439 /* LaunchScreen.storyboard */; };
+		F56090D81E28A0AF00DD0439 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56090D71E28A0AF00DD0439 /* HomeVC.swift */; };
+		F56090E21E28BA5800DD0439 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56090E11E28BA5800DD0439 /* SWRevealViewController.m */; };
+		F56091091E28E58C00DD0439 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56091081E28E58C00DD0439 /* ItemDetail.swift */; };
+		F560910B1E28EDB100DD0439 /* SearchLocationVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F560910A1E28EDB100DD0439 /* SearchLocationVc.swift */; };
+		F560910D1E28F0AC00DD0439 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F560910C1E28F0AC00DD0439 /* MapKit.framework */; };
+		F560910F1E28F0B600DD0439 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F560910E1E28F0B600DD0439 /* QuartzCore.framework */; };
+		F56374CA1E2DE040003B4F79 /* SearchItemDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56374C91E2DE040003B4F79 /* SearchItemDetailVC.swift */; };
+		F56374CF1E2E26D3003B4F79 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56374CE1E2E26D3003B4F79 /* Accelerate.framework */; };
+		F56374E71E2E2FC9003B4F79 /* DealersMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56374E61E2E2FC9003B4F79 /* DealersMenuVC.swift */; };
+		F56374E91E2E302C003B4F79 /* CustomerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56374E81E2E302C003B4F79 /* CustomerVc.swift */; };
+		F5F4EC6F1E2F86FE000C18B7 /* customMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F4EC6E1E2F86FE000C18B7 /* customMenu.swift */; };
+		F5F4EC711E2F87D1000C18B7 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F4EC701E2F87D1000C18B7 /* NavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1626CBB6A3ABF4FD48D03107 /* Pods-PropertyRental.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyRental.release.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyRental/Pods-PropertyRental.release.xcconfig"; sourceTree = "<group>"; };
+		89A50ABCD415B5D52F85A353 /* Pods_PropertyRental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PropertyRental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A0D742E49E59924EBC5A4C /* Pods-PropertyRental.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyRental.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyRental/Pods-PropertyRental.debug.xcconfig"; sourceTree = "<group>"; };
+		F545F4B31E3CA89D009119FC /* ResetVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetVc.swift; sourceTree = "<group>"; };
+		F545F4B71E3CAE9C009119FC /* SignUpVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
+		F545F4B91E3CAEC7009119FC /* OtpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		F55FAA811E2CA54200AD5575 /* Vendor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
+		F55FAA8D1E2CAC3E00AD5575 /* SignupWithVOP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupWithVOP.swift; sourceTree = "<group>"; };
+		F55FAA901E2CC73E00AD5575 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../../../Images/menu.png; sourceTree = "<group>"; };
+		F55FAA921E2CC88700AD5575 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		F56090BC1E2899AD00DD0439 /* PropertyRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56090BF1E2899AD00DD0439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F56090C11E2899AD00DD0439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +52,20 @@
 		F56090C91E2899AD00DD0439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56090CC1E2899AD00DD0439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F56090CE1E2899AD00DD0439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56090D71E28A0AF00DD0439 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F56090DF1E28BA4700DD0439 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F56090E01E28BA5700DD0439 /* PropertyRental-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PropertyRental-Bridging-Header.h"; sourceTree = "<group>"; };
+		F56090E11E28BA5800DD0439 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F56091081E28E58C00DD0439 /* ItemDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		F560910A1E28EDB100DD0439 /* SearchLocationVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLocationVc.swift; sourceTree = "<group>"; };
+		F560910C1E28F0AC00DD0439 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F560910E1E28F0B600DD0439 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F56374C91E2DE040003B4F79 /* SearchItemDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchItemDetailVC.swift; sourceTree = "<group>"; };
+		F56374CE1E2E26D3003B4F79 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F56374E61E2E2FC9003B4F79 /* DealersMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealersMenuVC.swift; sourceTree = "<group>"; };
+		F56374E81E2E302C003B4F79 /* CustomerVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerVc.swift; sourceTree = "<group>"; };
+		F5F4EC6E1E2F86FE000C18B7 /* customMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customMenu.swift; sourceTree = "<group>"; };
+		F5F4EC701E2F87D1000C18B7 /* NavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56374CF1E2E26D3003B4F79 /* Accelerate.framework in Frameworks */,
+				F560910F1E28F0B600DD0439 /* QuartzCore.framework in Frameworks */,
+				F560910D1E28F0AC00DD0439 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61FD7A3B37AA9472A6BD1A14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F56374CE1E2E26D3003B4F79 /* Accelerate.framework */,
+				89A50ABCD415B5D52F85A353 /* Pods_PropertyRental.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67946DC5E1FFE914531A3B2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A0D742E49E59924EBC5A4C /* Pods-PropertyRental.debug.xcconfig */,
+				1626CBB6A3ABF4FD48D03107 /* Pods-PropertyRental.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F55FAA7E1E2CA4EC00AD5575 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F55FAA901E2CC73E00AD5575 /* menu.png */,
+			);
+			name = Appdelegate;
+			sourceTree = "<group>";
+		};
+		F55FAA801E2CA51C00AD5575 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F55FAA811E2CA54200AD5575 /* Vendor.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F55FAA8F1E2CC28A00AD5575 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				F56090C31E2899AD00DD0439 /* Main.storyboard */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
 		F56090B31E2899AD00DD0439 = {
 			isa = PBXGroup;
 			children = (
+				F560910E1E28F0B600DD0439 /* QuartzCore.framework */,
+				F560910C1E28F0AC00DD0439 /* MapKit.framework */,
 				F56090BE1E2899AD00DD0439 /* PropertyRental */,
 				F56090BD1E2899AD00DD0439 /* Products */,
+				67946DC5E1FFE914531A3B2B /* Pods */,
+				61FD7A3B37AA9472A6BD1A14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +147,73 @@
 		F56090BE1E2899AD00DD0439 /* PropertyRental */ = {
 			isa = PBXGroup;
 			children = (
+				F55FAA7E1E2CA4EC00AD5575 /* Appdelegate */,
 				F56090BF1E2899AD00DD0439 /* AppDelegate.swift */,
-				F56090C11E2899AD00DD0439 /* ViewController.swift */,
-				F56090C31E2899AD00DD0439 /* Main.storyboard */,
+				F5F4EC6B1E2F863A000C18B7 /* CustomView */,
+				F55FAA801E2CA51C00AD5575 /* Model */,
+				F56090DD1E28B97B00DD0439 /* SIDEMENU */,
+				F56090D41E289F2300DD0439 /* View */,
+				F55FAA8F1E2CC28A00AD5575 /* MainView */,
 				F56090C91E2899AD00DD0439 /* Assets.xcassets */,
 				F56090CB1E2899AD00DD0439 /* LaunchScreen.storyboard */,
 				F56090CE1E2899AD00DD0439 /* Info.plist */,
+				F56090E01E28BA5700DD0439 /* PropertyRental-Bridging-Header.h */,
 				F56090C61E2899AD00DD0439 /* PropertyRental.xcdatamodeld */,
 			);
 			path = PropertyRental;
+			sourceTree = "<group>";
+		};
+		F56090D41E289F2300DD0439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F56090D71E28A0AF00DD0439 /* HomeVC.swift */,
+				F56090C11E2899AD00DD0439 /* ViewController.swift */,
+				F55FAA8D1E2CAC3E00AD5575 /* SignupWithVOP.swift */,
+				F545F4B31E3CA89D009119FC /* ResetVc.swift */,
+				F56374C91E2DE040003B4F79 /* SearchItemDetailVC.swift */,
+				F55FAA921E2CC88700AD5575 /* MenuVC.swift */,
+				F545F4B91E3CAEC7009119FC /* OtpVC.swift */,
+				F545F4B71E3CAE9C009119FC /* SignUpVc.swift */,
+				F560910A1E28EDB100DD0439 /* SearchLocationVc.swift */,
+				F56091081E28E58C00DD0439 /* ItemDetail.swift */,
+				F56374E61E2E2FC9003B4F79 /* DealersMenuVC.swift */,
+				F56374E81E2E302C003B4F79 /* CustomerVc.swift */,
+				F56374E51E2E2C63003B4F79 /* HelperControllers */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F56090DD1E28B97B00DD0439 /* SIDEMENU */ = {
+			isa = PBXGroup;
+			children = (
+				F56090DE1E28B9BA00DD0439 /* SWRevealViewController */,
+			);
+			name = SIDEMENU;
+			sourceTree = "<group>";
+		};
+		F56090DE1E28B9BA00DD0439 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F56090DF1E28BA4700DD0439 /* SWRevealViewController.h */,
+				F56090E11E28BA5800DD0439 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		F56374E51E2E2C63003B4F79 /* HelperControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HelperControllers;
+			sourceTree = "<group>";
+		};
+		F5F4EC6B1E2F863A000C18B7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F5F4EC6E1E2F86FE000C18B7 /* customMenu.swift */,
+				F5F4EC701E2F87D1000C18B7 /* NavView.swift */,
+			);
+			name = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F56090D11E2899AD00DD0439 /* Build configuration list for PBXNativeTarget "PropertyRental" */;
 			buildPhases = (
+				B39C640E3343C80699BE0A12 /* [CP] Check Pods Manifest.lock */,
 				F56090B81E2899AD00DD0439 /* Sources */,
 				F56090B91E2899AD00DD0439 /* Frameworks */,
 				F56090BA1E2899AD00DD0439 /* Resources */,
+				0875744C77A3FC5D9E54043D /* [CP] Embed Pods Frameworks */,
+				32EC0EFCFD15F0172A339469 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +251,7 @@
 				TargetAttributes = {
 					F56090BB1E2899AD00DD0439 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -133,14 +286,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0875744C77A3FC5D9E54043D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PropertyRental/Pods-PropertyRental-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32EC0EFCFD15F0172A339469 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PropertyRental/Pods-PropertyRental-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39C640E3343C80699BE0A12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F56090B81E2899AD00DD0439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F4EC711E2F87D1000C18B7 /* NavView.swift in Sources */,
+				F56374E71E2E2FC9003B4F79 /* DealersMenuVC.swift in Sources */,
+				F545F4BA1E3CAEC7009119FC /* OtpVC.swift in Sources */,
+				F55FAA8E1E2CAC3E00AD5575 /* SignupWithVOP.swift in Sources */,
 				F56090C81E2899AD00DD0439 /* PropertyRental.xcdatamodeld in Sources */,
+				F56091091E28E58C00DD0439 /* ItemDetail.swift in Sources */,
+				F5F4EC6F1E2F86FE000C18B7 /* customMenu.swift in Sources */,
+				F56090D81E28A0AF00DD0439 /* HomeVC.swift in Sources */,
+				F55FAA931E2CC88700AD5575 /* MenuVC.swift in Sources */,
+				F545F4B81E3CAE9C009119FC /* SignUpVc.swift in Sources */,
+				F545F4B41E3CA89D009119FC /* ResetVc.swift in Sources */,
+				F56374CA1E2DE040003B4F79 /* SearchItemDetailVC.swift in Sources */,
+				F56090E21E28BA5800DD0439 /* SWRevealViewController.m in Sources */,
+				F56374E91E2E302C003B4F79 /* CustomerVc.swift in Sources */,
 				F56090C21E2899AD00DD0439 /* ViewController.swift in Sources */,
+				F55FAA821E2CA54200AD5575 /* Vendor.swift in Sources */,
 				F56090C01E2899AD00DD0439 /* AppDelegate.swift in Sources */,
+				F560910B1E28EDB100DD0439 /* SearchLocationVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,23 +469,33 @@
 		};
 		F56090D21E2899AD00DD0439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A0D742E49E59924EBC5A4C /* Pods-PropertyRental.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PropertyRental/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = abc.PropertyRental;
+				PRODUCT_BUNDLE_IDENTIFIER = Mysolution.PropertyRental;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PropertyRental/PropertyRental-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F56090D31E2899AD00DD0439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1626CBB6A3ABF4FD48D03107 /* Pods-PropertyRental.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PropertyRental/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = abc.PropertyRental;
+				PRODUCT_BUNDLE_IDENTIFIER = Mysolution.PropertyRental;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PropertyRental/PropertyRental-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -292,6 +518,7 @@
 				F56090D31E2899AD00DD0439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
